@@ -89,5 +89,5 @@ if $errorRunningScript ; then
 fi
 
 echo "------------------------------------"
-echo "FINISH - Script has run succesfully."
+echo "FINISH - Script has run successfully."
 echo "------------------------------------"
