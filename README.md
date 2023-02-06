@@ -29,6 +29,9 @@ This will make sure that the `pre-commit` Git hooks run whenever you try to comm
 The script tries to provide a useful error message.
 Fix the error and run the script again.
 
+# Licence
+
+[MIT License](LICENCE)
 
 
 
