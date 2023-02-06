@@ -4,7 +4,7 @@ Script used to install `pre-commit` on all local `pay-*` Git repos.  E.g. `pay-f
 
 This will make sure that the `pre-commit` Git hooks run whenever you try to commit a file.
 
-# Instructions
+## Instructions
 
 1. Change directory into the top level directory containing all your `pay` Git repositories.
 2. Run the following script from here:
@@ -12,7 +12,7 @@ This will make sure that the `pre-commit` Git hooks run whenever you try to comm
 <location-of-script>/install-pre-commit-on-all-pay-repos.sh
 ```
 
-# What the script does
+## What the script does
  
 - Loop through all directories beginning with `pay-`
   - Will change directory into each `pay-` Git repository.
@@ -24,12 +24,12 @@ This will make sure that the `pre-commit` Git hooks run whenever you try to comm
   - Will run `pre-commit install`.
     - This will install the latest Git `pre-commit` hooks using the `.pre-commit.yaml` config file
 
-# If the script fails
+## If the script fails
 
 The script tries to provide a useful error message.
 Fix the error and run the script again.
 
-# Licence
+## Licence
 
 [MIT License](LICENCE)
 
